@@ -1,13 +1,15 @@
 <resources>
     <string name="app_name">ALC 4 Phase 1</string>
+    <string name="app_profile">My Profile</string>
+    <string name="app_about">About ALC</string>
     <string name="textview">Welcome to ALC 4.0</string>
     <string name="btn_about">About ALC</string>
     <string name="btn_profile">My Profile</string>
     <string name="txt_name">Frankline Kihiu</string>
-    <string name="txt_track">Track: Android</string>
+    <string name="txt_track">Track:  Android</string>
     <string name="txt_country">Country:  Kenya</string>
     <string name="txt_email">Email:  franklinekihiu@gmail.com</string>
-    <string name="txt_phone">Phone Number: +254726101804</string>
+    <string name="txt_phone">Phone Number:  +254726101804</string>
     <string name="txt_slack">Slack Username:  @Kihiu Frank</string>
     <string name="todo">TODO</string>
 </resources>
