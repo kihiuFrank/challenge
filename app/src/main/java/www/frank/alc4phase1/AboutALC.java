@@ -1,6 +1,7 @@
 package www.frank.alc4phase1;
 
 import android.net.http.SslError;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.SslErrorHandler;
@@ -20,6 +21,9 @@ public class AboutALC extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_alc);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("About ALC");
 
         myWebView = findViewById(R.id.webView);
         myWebView.setWebViewClient(new WebViewClient(){

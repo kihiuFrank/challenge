@@ -12,10 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".AboutALC"
-            android:label="@string/app_about"/>
+            android:label="@string/app_about"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".myProfile"
-            android:label="@string/app_profile" />
+            android:label="@string/app_profile"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
